@@ -91,10 +91,10 @@ print  """
   \033[1;96m ─────────────•◈•──────────  
    \033[1;92m███████▒▒Welcome To AfghanGang▒▒████████
 \033[1;95m♡╭──────────•◈•──────────╮♡\033[1;96mAfghanGang\033[1;95m♡╭──────────•◈•──────────╮♡
-\033[1;94mنویسنده\033[1;91m: \033[1;91mعبدالله علیزاده
+\033[1;94mNweesenda\033[1;91m: \033[1;91mAbdull Alizada
 \033[1;94mAfghanGang\033[1;91m: \033[1;91▒▓██████████████]99.9
-\033[1;94mفسبوک\033[1;91m: \033[1;91malizada
-\033[1;94mواتسپ\033[1;91m: \033[1;91m+93780948191
+\033[1;94mfb adress\033[1;91m: \033[1;91mAbdull alizda
+\033[1;94mwhatsap\033[1;91m: \033[1;91m+93780948191
 \033[1;95m♡╰──────────•◈•──────────╯♡\033[1;96mAfghanGang\033[1;95m♡╰──────────•◈•──────────╯♡"""
 jalan('              \033[1;96m....................AfghanGang.....................:')
 jalan("\033[1;93m   ┈┈┈┈┈┈┈┈╱▔▔▔▔╲┈┈┈┈┈┈┈┈   ")
@@ -131,10 +131,10 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		jalan(' \033[1;92mاخطاریه: \033[1;97mDo از اکونت اصلی خود استفاده نکنید' )
-		jalan(' \033[1;92m   نوت: \033[1;97mاز یک اکونت جدید استفاده کنید' )
+		jalan(' \033[1;92mWarning: \033[1;97mDo Az account asli Estefad Nakuned' )
+		jalan(' \033[1;92m   note: \033[1;97mAz yak account Taza estefada kuned' )
 		print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mAfghanGang\033[1;95m♡──────────•◈•──────────♡"
-		print('	   \033[1;94m♡\x1b[1;91m》》》》》》بواسطه فسبوک وارد شوید《《《《《《\x1b[1;94m♡' )
+		print('	   \033[1;94m♡\x1b[1;91m》》》》》》bawaseta fb wared shawed《《《《《《\x1b[1;94m♡' )
 		print('	' )
 		id = raw_input('\033[1;96m[+] \x1b[1;92mID/Email\x1b[1;95m: \x1b[1;96m')
 		pwd = raw_input('\033[1;96m[+] \x1b[1;93mPassword\x1b[1;96m: \x1b[1;96m')
@@ -209,17 +209,17 @@ def menu():
 		keluar()
 	os.system("clear") #Dev:love_hacker
 	print logo
-	print "  \033[1;95m«-----♡----\033[1;93mمعلومات اکونت شما\033[1;95m----♡-----»"
+	print "  \033[1;95m«-----♡----\033[1;93mmalomat account shuma\033[1;95m----♡-----»"
 	print "	   \033[1;94m Name\033[1;93m:\033[1;92m"+nama+"\033[1;97m               "
 	print "	   \033[1;97m ID\033[1;93m:\033[1;92m"+id+"\x1b[1;97m              "
 	print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mAfghanGang\033[1;95m♡──────────•◈•──────────♡"
-	print "\033[1;97m--\033[1;92m> \033[1;92m1.\x1b[1;92mهک شروع میشود..."
+	print "\033[1;97m--\033[1;92m> \033[1;92m1.\x1b[1;92mhack shro meshawad..."
 	print "\033[1;97m--\033[1;91m> \033[1;91m0.\033[1;91mExit            "
 	pilih()
 
 
 def pilih():
-	unikers = raw_input("\n\033[1;91mیک گزینه را انتخاب کنید>>> \033[1;97m")
+	unikers = raw_input("\n\033[1;91myak guzeena ra entekhab kuned>>> \033[1;97m")
 	if unikers =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih()
@@ -417,7 +417,7 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mAfghanGang\033[1;95m♡──────────•◈•──────────♡"
-	print "  \033[1;93m«---•◈•---ساخته شته توسط عبدالله علیزاده---•◈•---»" #Dev:love_hacker
+	print "  \033[1;93m«---•◈•---sakhta shuda tawasut abdull alizada---•◈•---»" #Dev:love_hacker
 	print '\033[1;91mProcess Has Been Completed\033[1;92m....'
 	print"\033[1;91mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;97m/\033[1;95m"+str(len(cekpoint))
 	print """
